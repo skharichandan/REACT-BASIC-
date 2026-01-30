@@ -1,8 +1,9 @@
 function Title() {
+    let name = "Soumya";
     return (
     <div>
-        <h1>I am a Title</h1>
-        <h3>I am a Description</h3>
+        <p>2 X 2  = {2*2}</p>
+        <p>Hi, {name.toUpperCase()}</p>
     </div>    
     );
 }
