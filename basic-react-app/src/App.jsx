@@ -1,11 +1,8 @@
-import './App.css'
+import './App.css';
+import Title from "./Title.jsx";
+import Description2 from "./Description.jsx";
 
-function Title() {
-  return <h1>I am the Title!</h1>
-}
-function Description() {
-  return <h3>I am the Description</h3>
-}
+
 
 function App() {
   return (
@@ -13,7 +10,7 @@ function App() {
       <h1>This is my app component</h1>
       <p>inside app component we have : </p>
       <Title/>
-      <Description/>
+      <Description2/>
     </div>
   );
 }
