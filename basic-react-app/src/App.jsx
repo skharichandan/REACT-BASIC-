@@ -5,11 +5,11 @@ import Title from "./Title.jsx";
 
 function App() {
   return (
-    <div className='mainbox'>
+    <>
       <Title/>
       <Title/>
       <Title/>
-    </div>
+    </>
   );
 }
 

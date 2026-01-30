@@ -1,6 +1,9 @@
 function Title() {
     return (
-    <h1>I am a Title</h1>
+    <div>
+        <h1>I am a Title</h1>
+        <h3>I am a Description</h3>
+    </div>    
     );
 }
 
