@@ -1,7 +1,7 @@
 import "./Product.css"
 
 function Product({title,price}) {
-   let styles = {backgroundColor : "blue"}; 
+   let styles = {backgroundColor : price > 3000 ? "blue" : "red"}; 
     return (
         <div className="Product" style = {styles}>
             <h3>{title}</h3>
