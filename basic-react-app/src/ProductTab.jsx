@@ -1,13 +1,19 @@
 import Product from "./Product"
 
 function ProductTab() {
-
+    let styles = {
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent:"center",
+        alignItems: "center"
+    };
     return (
-        <>
-        <Product title = "phone" price = {35000} />
-        <Product title = "laptop" price = {60000} />
-        <Product title = "pen" price = {45} />
-        </>
+        <div style ={styles}>
+        <Product title="Nutricook InstaPot 2" idx={0}/>
+        <Product title="Agaro Regaro Electric Cooker" idx={1}/>
+        <Product title ="Philips Air Fryer" idx={2}/>
+        <Product title ="Kent Air Fryer" idx={3}/>
+        </div>
     )
 }
 
