@@ -1,16 +1,20 @@
-function printHello(){
+function handleClick(){
     console.log("Hello!");
 }
 
-function printBye(){
+function handleMouseOver(){
     console.log("Bye!");
+}
+function handleDblClick(){
+    console.log("You Double Clicked Me");
 }
 
 export default function Button(){
     return (
         <div>
-            <button onClick={printHello}>Click me !</button>
-            <p onClick={printBye}>This parah is for event demo</p>
+            <button onClick={handleClick}>Click me !</button>
+            <p onMouseOver={handleMouseOver}>This parah is for event demo</p>
+            <button onDoubleClick={handleDblClick}>Double Click Me!</button>
         </div>
     );
 }
