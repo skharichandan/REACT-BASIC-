@@ -1,24 +1,15 @@
 import "./Product.css"
 
 function Product({title,price}) {
-    if(price > 3000)
-    {
-        return (
-        <div className="Product">
-            <h3>{title}</h3>
-            <h5>Price : {price}</h5>
-            <p>Discount of 5%</p>
-        </div>
-    );
-    }else{
-        return (
-        <div className="Product">
-            <h3>{title}</h3>
-            <h5>Price : {price}</h5>
-        </div>
-    );
-    }
+    let isDiscount = price > 40000 ? "Discount of 5%" : "";
     
+    return (
+        <div className="Product">
+            <h3>{title}</h3>
+            <h5>Price : {price}</h5>
+            <p>{isDiscount}</p>
+        </div>
+    );  
 }
 
 export default Product;
