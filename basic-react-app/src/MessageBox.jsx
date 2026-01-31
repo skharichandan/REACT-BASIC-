@@ -1,3 +1,4 @@
+
 export default function MessageBox({userName,textColor}){
     // let styles = {color :textColor};
     

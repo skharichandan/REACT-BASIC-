@@ -1,12 +1,12 @@
 import './App.css';
 import Title from "./Title.jsx";
 import ProductTab from "./ProductTab.jsx";
-import MessageBox from './MessageBox.jsx';
+import MessageBoxTab from './MessageBoxTab.jsx';
 
 function App() {
   return (
     <>
-      <MessageBox userName = "Soumya" textColor = "red"/>
+      <MessageBoxTab/>
       <ProductTab/>
     </>
   );
